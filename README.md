@@ -1,2 +1,5 @@
-# ICEplots_reworked
-Project conducted for the Statistics for Data Science course (A.Y. 2023/24): reproduction and extension of the paper “Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation” (Goldstein et al., 2014, https://arxiv.org/abs/1309.6392)
+# Peeking Inside the Black Box
+Project conducted for the Statistics for Data Science course (A.Y. 2023/24): reproduction and extension of the paper “Peeking Inside the Black Box: Visualizing Statistical Learning With Plots of Individual Conditional Expectation” (Goldstein et al., 2014, https://arxiv.org/abs/1309.6392).
+## Overview
+This article introduces Individual Conditional Expectation (ICE) plots as a visualization tool for models produced by supervised learning algorithms. Unlike partial dependence plots (PDPs), which show the average effect of features on predictions, ICE plots focus on individual observations to reveal heterogeneity in the model's predictions. By displaying the functional relationship between predictions and a feature for each observation, ICE plots highlight variation and interaction effects that PDPs may obscure. We divided the work by focusing on reproducing and validating the results described by the authors in the paper, and then using the tool on other real-world data in comparison with other explainability techniques.
+
